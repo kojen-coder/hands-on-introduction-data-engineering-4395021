@@ -1,0 +1,70 @@
+[2024-09-29T04:34:44.786+0000] {processor.py:157} INFO - Started process (PID=14055) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:34:44.787+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-09-29T04:34:44.788+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:34:44.787+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:34:44.795+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_dynamic_task_mapping']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:34:44.922+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:34:44.922+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-09-29T04:34:44.935+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:34:44.935+0000] {dag.py:3504} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2024-09-29T04:34:45.005+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.222 seconds
+[2024-09-29T04:35:32.197+0000] {processor.py:157} INFO - Started process (PID=14373) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:35:32.198+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-09-29T04:35:32.199+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:35:32.198+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:35:32.205+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_dynamic_task_mapping']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:35:32.218+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:35:32.218+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-09-29T04:35:32.234+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:35:32.234+0000] {dag.py:3504} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2024-09-29T04:35:32.299+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.104 seconds
+[2024-09-29T04:36:25.634+0000] {processor.py:157} INFO - Started process (PID=14786) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:36:25.635+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-09-29T04:36:25.636+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:36:25.635+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:36:25.641+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_dynamic_task_mapping']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:36:25.652+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:36:25.652+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-09-29T04:36:25.666+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:36:25.666+0000] {dag.py:3504} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2024-09-29T04:36:25.727+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.095 seconds
+[2024-09-29T04:37:19.268+0000] {processor.py:157} INFO - Started process (PID=15214) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:37:19.269+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-09-29T04:37:19.269+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:37:19.269+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:37:19.275+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_dynamic_task_mapping']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:37:19.293+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:37:19.292+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-09-29T04:37:19.314+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:37:19.313+0000] {dag.py:3504} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2024-09-29T04:37:19.380+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.114 seconds
+[2024-09-29T04:38:09.514+0000] {processor.py:157} INFO - Started process (PID=15644) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:38:09.514+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-09-29T04:38:09.515+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:38:09.515+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:38:09.520+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_dynamic_task_mapping']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:38:09.532+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:38:09.531+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-09-29T04:38:09.546+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:38:09.546+0000] {dag.py:3504} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2024-09-29T04:38:09.622+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.111 seconds
+[2024-09-29T04:38:58.869+0000] {processor.py:157} INFO - Started process (PID=16226) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:38:58.869+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-09-29T04:38:58.870+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:38:58.870+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:38:58.875+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_dynamic_task_mapping']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:38:58.886+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:38:58.886+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-09-29T04:38:58.901+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:38:58.901+0000] {dag.py:3504} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2024-09-29T04:38:58.960+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.094 seconds
+[2024-09-29T04:39:54.879+0000] {processor.py:157} INFO - Started process (PID=16726) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:39:54.880+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-09-29T04:39:54.880+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:39:54.880+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:39:54.886+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_dynamic_task_mapping']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:39:54.897+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:39:54.897+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-09-29T04:39:54.911+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:39:54.911+0000] {dag.py:3504} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2024-09-29T04:39:54.970+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.093 seconds
+[2024-09-29T04:59:03.387+0000] {processor.py:157} INFO - Started process (PID=23845) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:59:03.387+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-09-29T04:59:03.388+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:59:03.388+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:59:03.393+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_dynamic_task_mapping']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:59:03.483+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:59:03.482+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-09-29T04:59:03.496+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:59:03.496+0000] {dag.py:3504} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2024-09-29T04:59:03.554+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.170 seconds
+[2024-09-29T04:59:51.490+0000] {processor.py:157} INFO - Started process (PID=24187) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:59:51.490+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-09-29T04:59:51.491+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:59:51.491+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:59:51.496+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_dynamic_task_mapping']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T04:59:51.508+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:59:51.507+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-09-29T04:59:51.523+0000] {logging_mixin.py:150} INFO - [2024-09-29T04:59:51.523+0000] {dag.py:3504} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2024-09-29T04:59:51.602+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.115 seconds
+[2024-09-29T05:00:40.446+0000] {processor.py:157} INFO - Started process (PID=24598) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T05:00:40.447+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-09-29T05:00:40.447+0000] {logging_mixin.py:150} INFO - [2024-09-29T05:00:40.447+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T05:00:40.453+0000] {processor.py:836} INFO - DAG(s) dict_keys(['example_dynamic_task_mapping']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-09-29T05:00:40.465+0000] {logging_mixin.py:150} INFO - [2024-09-29T05:00:40.465+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2024-09-29T05:00:40.483+0000] {logging_mixin.py:150} INFO - [2024-09-29T05:00:40.482+0000] {dag.py:3504} INFO - Setting next_dagrun for example_dynamic_task_mapping to 2022-03-04T00:00:00+00:00, run_after=2022-03-05T00:00:00+00:00
+[2024-09-29T05:00:40.552+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.108 seconds
