@@ -1,0 +1,19 @@
+[2024-09-30T17:04:39.780+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: extract_dag.extract_task manual__2024-09-30T17:04:37.776919+00:00 [queued]>
+[2024-09-30T17:04:39.785+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: extract_dag.extract_task manual__2024-09-30T17:04:37.776919+00:00 [queued]>
+[2024-09-30T17:04:39.785+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-09-30T17:04:39.832+0000] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): extract_task> on 2024-09-30 17:04:37.776919+00:00
+[2024-09-30T17:04:39.838+0000] {standard_task_runner.py:57} INFO - Started process 15799 to run task
+[2024-09-30T17:04:39.841+0000] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2024-09-30T17:04:37.776919+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/extract_dag.py', '--cfg-path', '/tmp/tmp544o_5jv']
+[2024-09-30T17:04:39.841+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask extract_task
+[2024-09-30T17:04:39.950+0000] {task_command.py:410} INFO - Running <TaskInstance: extract_dag.extract_task manual__2024-09-30T17:04:37.776919+00:00 [running]> on host codespaces-c567e2
+[2024-09-30T17:04:40.104+0000] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='extract_dag' AIRFLOW_CTX_TASK_ID='extract_task' AIRFLOW_CTX_EXECUTION_DATE='2024-09-30T17:04:37.776919+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-30T17:04:37.776919+00:00'
+[2024-09-30T17:04:40.104+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-09-30T17:04:40.105+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'curl -L -o /workspaces/hands-on-introduction-data-engineering-4395021/lab/orchestrated/airflow-extract-data.csv https://raw.githubusercontent.com/LinkedInLearning/hands-on-introduction-data-engineering-4395021/main/data/top-level-domain-names.csv']
+[2024-09-30T17:04:40.111+0000] {subprocess.py:86} INFO - Output:
+[2024-09-30T17:04:40.122+0000] {subprocess.py:93} INFO -   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+[2024-09-30T17:04:40.122+0000] {subprocess.py:93} INFO -                                  Dload  Upload   Total   Spent    Left  Speed
+[2024-09-30T17:04:40.287+0000] {subprocess.py:93} INFO -   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 22 42789   22  9637    0     0  60384      0 --:--:-- --:--:-- --:--:-- 60231100 42789  100 42789    0     0   252k      0 --:--:-- --:--:-- --:--:--  251k
+[2024-09-30T17:04:40.290+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-09-30T17:04:40.337+0000] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=extract_dag, task_id=extract_task, execution_date=20240930T170437, start_date=20240930T170439, end_date=20240930T170440
+[2024-09-30T17:04:40.414+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-09-30T17:04:40.422+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

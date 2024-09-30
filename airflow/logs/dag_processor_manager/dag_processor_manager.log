@@ -1736,3 +1736,916 @@ File Path                                                                       
 /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.21s           2024-09-29T05:54:34
 /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-29T05:54:07
 ================================================================================
+[2024-09-30T16:45:25.027+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-09-30T16:45:25.042+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-09-30T16:45:25.043+0000] {manager.py:489} INFO - Checking for new files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags every 300 seconds
+[2024-09-30T16:45:25.043+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T16:45:25.049+0000] {manager.py:761} INFO - There are 3 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T16:45:25.491+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           0           0
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           0
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.32s           2024-09-30T16:45:25
+================================================================================
+[2024-09-30T16:45:55.792+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.21s           2024-09-30T16:45:26
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T16:45:55
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.41s           2024-09-30T16:45:28
+================================================================================
+[2024-09-30T16:46:26.365+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.22s           2024-09-30T16:45:57
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T16:46:26
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.31s           2024-09-30T16:45:59
+================================================================================
+[2024-09-30T16:46:56.681+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T16:46:27
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.21s           2024-09-30T16:46:56
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T16:46:30
+================================================================================
+[2024-09-30T16:47:27.418+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.31s           2024-09-30T16:46:57
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T16:47:27
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.30s           2024-09-30T16:47:00
+================================================================================
+[2024-09-30T16:47:58.391+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T16:47:28
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T16:47:58
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T16:47:31
+================================================================================
+[2024-09-30T16:48:28.655+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.31s           2024-09-30T16:47:59
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T16:48:28
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T16:48:01
+================================================================================
+[2024-09-30T16:48:58.915+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T16:48:30
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T16:48:58
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T16:48:32
+================================================================================
+[2024-09-30T16:49:29.075+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T16:49:01
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T16:49:29
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T16:49:02
+================================================================================
+[2024-09-30T16:49:59.234+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T16:49:31
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T16:49:59
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.21s           2024-09-30T16:49:32
+================================================================================
+[2024-09-30T16:50:04.212+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-09-30T16:50:04.214+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-09-30T16:50:04.217+0000] {manager.py:489} INFO - Checking for new files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags every 300 seconds
+[2024-09-30T16:50:04.221+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T16:50:04.225+0000] {manager.py:761} INFO - There are 3 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T16:50:04.375+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           0           0
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           0
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.11s           2024-09-30T16:50:04
+================================================================================
+[2024-09-30T16:50:25.101+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T16:50:25.103+0000] {manager.py:761} INFO - There are 3 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T16:50:29.837+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.11s           2024-09-30T16:50:02
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T16:50:29
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.21s           2024-09-30T16:50:03
+================================================================================
+[2024-09-30T16:50:35.197+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T16:50:05
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T16:50:35
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.21s           2024-09-30T16:50:06
+================================================================================
+[2024-09-30T16:51:25.859+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-30T16:51:25.860+0000] {manager.py:470} INFO - Exiting gracefully upon receiving signal 15
+[2024-09-30T16:56:56.903+0000] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2024-09-30T16:56:56.904+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-09-30T16:56:56.904+0000] {manager.py:489} INFO - Checking for new files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags every 300 seconds
+[2024-09-30T16:56:56.904+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T16:56:56.907+0000] {manager.py:761} INFO - There are 3 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T16:56:57.213+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           0           0
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           0           0
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.21s           2024-09-30T16:56:57
+================================================================================
+[2024-09-30T16:57:27.444+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.21s           2024-09-30T16:56:58
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T16:57:27
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.21s           2024-09-30T16:56:59
+================================================================================
+[2024-09-30T16:57:58.163+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.30s           2024-09-30T16:57:28
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.30s           2024-09-30T16:57:58
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.91s           2024-09-30T16:57:30
+================================================================================
+[2024-09-30T16:58:28.459+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T16:57:59
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.21s           2024-09-30T16:58:28
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.41s           2024-09-30T16:58:02
+================================================================================
+[2024-09-30T16:58:59.232+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T16:58:29
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T16:58:59
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T16:58:33
+================================================================================
+[2024-09-30T16:59:29.642+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T16:59:00
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T16:59:29
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T16:59:03
+================================================================================
+[2024-09-30T17:00:00.389+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T16:59:30
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.30s           2024-09-30T17:00:00
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T16:59:34
+================================================================================
+[2024-09-30T17:00:30.834+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.21s           2024-09-30T17:00:01
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:00:30
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:00:04
+================================================================================
+[2024-09-30T17:01:01.405+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:00:32
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.11s           2024-09-30T17:01:01
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.22s           2024-09-30T17:00:35
+================================================================================
+[2024-09-30T17:01:32.033+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.21s           2024-09-30T17:01:02
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:01:32
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:01:05
+================================================================================
+[2024-09-30T17:01:56.960+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:01:56.961+0000] {manager.py:761} INFO - There are 3 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:02:02.565+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.11s           2024-09-30T17:01:33
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:02:02
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2024-09-30T17:01:36
+================================================================================
+[2024-09-30T17:02:33.199+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:02:03
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:02:33
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:02:06
+================================================================================
+[2024-09-30T17:03:03.819+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:02:34
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:03:03
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:02:37
+================================================================================
+[2024-09-30T17:03:34.021+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.21s           2024-09-30T17:03:05
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:03:34
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2024-09-30T17:03:08
+================================================================================
+[2024-09-30T17:04:04.429+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:03:36
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:04:04
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:03:38
+================================================================================
+[2024-09-30T17:04:34.933+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.21s           2024-09-30T17:04:06
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:04:34
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2024-09-30T17:04:08
+================================================================================
+[2024-09-30T17:05:05.689+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:04:37
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:05:05
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2024-09-30T17:04:40
+================================================================================
+[2024-09-30T17:05:35.795+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:05:08
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:05:35
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2024-09-30T17:05:11
+================================================================================
+[2024-09-30T17:06:06.388+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:05:38
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:06:06
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:05:41
+================================================================================
+[2024-09-30T17:06:37.011+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:06:09
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:06:37
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.21s           2024-09-30T17:06:12
+================================================================================
+[2024-09-30T17:06:56.996+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:06:56.997+0000] {manager.py:761} INFO - There are 3 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:07:07.395+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.11s           2024-09-30T17:06:39
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.11s           2024-09-30T17:07:07
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:06:42
+================================================================================
+[2024-09-30T17:07:38.047+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:07:10
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.21s           2024-09-30T17:07:38
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:07:13
+================================================================================
+[2024-09-30T17:08:08.566+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:07:40
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.11s           2024-09-30T17:08:08
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:07:44
+================================================================================
+[2024-09-30T17:08:39.129+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:08:11
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:08:39
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2024-09-30T17:08:14
+================================================================================
+[2024-09-30T17:09:09.476+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:08:41
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.11s           2024-09-30T17:09:09
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2024-09-30T17:08:44
+================================================================================
+[2024-09-30T17:09:39.913+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.11s           2024-09-30T17:09:11
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.11s           2024-09-30T17:09:39
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:09:14
+================================================================================
+[2024-09-30T17:10:10.353+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:09:42
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:10:10
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:09:44
+================================================================================
+[2024-09-30T17:10:40.785+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:10:12
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:10:40
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:10:15
+================================================================================
+[2024-09-30T17:11:11.310+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:10:42
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:11:11
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:10:45
+================================================================================
+[2024-09-30T17:11:41.641+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:11:12
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:11:41
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:11:15
+================================================================================
+[2024-09-30T17:11:57.032+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:11:57.034+0000] {manager.py:761} INFO - There are 3 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:12:12.187+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:11:42
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:12:12
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.21s           2024-09-30T17:11:45
+================================================================================
+[2024-09-30T17:12:42.839+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:12:13
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:12:42
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:12:16
+================================================================================
+[2024-09-30T17:13:13.207+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:12:43
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:13:13
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:12:46
+================================================================================
+[2024-09-30T17:13:43.892+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:13:13
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:13:43
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:13:16
+================================================================================
+[2024-09-30T17:14:14.076+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.11s           2024-09-30T17:13:44
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:14:14
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:13:46
+================================================================================
+[2024-09-30T17:14:44.267+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:14:15
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:14:44
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:14:16
+================================================================================
+[2024-09-30T17:15:14.456+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:14:45
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:15:14
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:14:47
+================================================================================
+[2024-09-30T17:15:44.748+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:15:16
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.21s           2024-09-30T17:15:44
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:15:17
+================================================================================
+[2024-09-30T17:16:14.935+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.11s           2024-09-30T17:15:46
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:16:14
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:15:47
+================================================================================
+[2024-09-30T17:16:45.117+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:16:17
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:16:45
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:16:17
+================================================================================
+[2024-09-30T17:16:57.068+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:16:57.070+0000] {manager.py:761} INFO - There are 3 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:17:15.313+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:16:47
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:17:15
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:16:48
+================================================================================
+[2024-09-30T17:17:45.465+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.11s           2024-09-30T17:17:18
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:17:45
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:17:18
+================================================================================
+[2024-09-30T17:18:15.653+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:17:48
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:18:15
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:17:49
+================================================================================
+[2024-09-30T17:18:45.838+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:18:18
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:18:45
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:18:19
+================================================================================
+[2024-09-30T17:19:16.094+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:18:48
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:19:16
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:18:49
+================================================================================
+[2024-09-30T17:19:46.420+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:19:18
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:19:46
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:19:19
+================================================================================
+[2024-09-30T17:20:16.733+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:19:49
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:20:16
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:19:50
+================================================================================
+[2024-09-30T17:20:46.886+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:20:19
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:20:46
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:20:21
+================================================================================
+[2024-09-30T17:21:17.175+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:20:49
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:21:17
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:20:51
+================================================================================
+[2024-09-30T17:21:47.469+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:21:19
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:21:47
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:21:22
+================================================================================
+[2024-09-30T17:21:57.104+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:21:57.106+0000] {manager.py:761} INFO - There are 3 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:22:17.657+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:21:49
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:22:17
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:21:52
+================================================================================
+[2024-09-30T17:22:47.851+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.11s           2024-09-30T17:22:19
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.11s           2024-09-30T17:22:47
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:22:23
+================================================================================
+[2024-09-30T17:23:18.136+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:22:50
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:23:18
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:22:53
+================================================================================
+[2024-09-30T17:23:48.265+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:23:20
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.11s           2024-09-30T17:23:48
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2024-09-30T17:23:23
+================================================================================
+[2024-09-30T17:24:18.559+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:23:50
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:24:18
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.21s           2024-09-30T17:23:53
+================================================================================
+[2024-09-30T17:24:48.757+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:24:20
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:24:48
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:24:23
+================================================================================
+[2024-09-30T17:25:18.946+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:24:50
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.11s           2024-09-30T17:25:18
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:24:54
+================================================================================
+[2024-09-30T17:25:49.229+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:25:21
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:25:49
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:25:24
+================================================================================
+[2024-09-30T17:26:19.514+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.11s           2024-09-30T17:25:51
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:26:19
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2024-09-30T17:25:55
+================================================================================
+[2024-09-30T17:26:49.699+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:26:21
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:26:49
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:26:25
+================================================================================
+[2024-09-30T17:26:57.141+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:26:57.143+0000] {manager.py:761} INFO - There are 3 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:27:19.884+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:26:51
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:27:19
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.21s           2024-09-30T17:26:56
+================================================================================
+[2024-09-30T17:27:50.068+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:27:21
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:27:50
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:27:26
+================================================================================
+[2024-09-30T17:28:20.246+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:27:51
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:28:20
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:27:57
+================================================================================
+[2024-09-30T17:28:50.532+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:28:22
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:28:50
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:28:27
+================================================================================
+[2024-09-30T17:29:20.717+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:28:52
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:29:20
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.21s           2024-09-30T17:28:58
+================================================================================
+[2024-09-30T17:29:50.903+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:29:22
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:29:50
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:29:28
+================================================================================
+[2024-09-30T17:30:21.086+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:29:52
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:30:21
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:29:59
+================================================================================
+[2024-09-30T17:30:51.302+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:30:23
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:30:51
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:30:30
+================================================================================
+[2024-09-30T17:31:21.537+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.11s           2024-09-30T17:30:53
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.11s           2024-09-30T17:31:21
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:31:01
+================================================================================
+[2024-09-30T17:31:51.934+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:31:23
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:31:51
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:31:31
+================================================================================
+[2024-09-30T17:31:57.177+0000] {manager.py:758} INFO - Searching for files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:31:57.178+0000] {manager.py:761} INFO - There are 3 files in /workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags
+[2024-09-30T17:32:22.225+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:31:53
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:32:22
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.10s           2024-09-30T17:32:02
+================================================================================
+[2024-09-30T17:32:52.522+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.11s           2024-09-30T17:32:23
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:32:52
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2024-09-30T17:32:32
+================================================================================
+[2024-09-30T17:33:23.015+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:32:54
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.21s           2024-09-30T17:33:23
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:33:02
+================================================================================
+[2024-09-30T17:33:53.413+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.10s           2024-09-30T17:33:24
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.20s           2024-09-30T17:33:53
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.11s           2024-09-30T17:33:33
+================================================================================
+[2024-09-30T17:34:23.805+0000] {manager.py:889} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+---------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/two_task_dag.py                           1           0  0.20s           2024-09-30T17:33:54
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/extract_dag.py                            1           0  0.10s           2024-09-30T17:34:23
+/workspaces/hands-on-introduction-data-engineering-4395021/airflow/dags/one_task_dag.py                           1           0  0.20s           2024-09-30T17:34:03
+================================================================================
